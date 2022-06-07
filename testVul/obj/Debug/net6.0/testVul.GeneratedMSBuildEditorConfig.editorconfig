@@ -1,0 +1,72 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = testVul
+build_property.RootNamespace = testVul
+build_property.ProjectDir = F:\Learn\DoAnTotNghiep\VulApp\testVul\testVul\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = F:\Learn\DoAnTotNghiep\VulApp\testVul\testVul
+build_property._RazorSourceGeneratorDebug = 
+
+[F:/Learn/DoAnTotNghiep/VulApp/testVul/testVul/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Learn/DoAnTotNghiep/VulApp/testVul/testVul/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Learn/DoAnTotNghiep/VulApp/testVul/testVul/Views/Sample1/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FtcGxlMVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Learn/DoAnTotNghiep/VulApp/testVul/testVul/Views/Sample2/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FtcGxlMlxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Learn/DoAnTotNghiep/VulApp/testVul/testVul/Views/Sample3/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FtcGxlM1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Learn/DoAnTotNghiep/VulApp/testVul/testVul/Views/Sample3/OSCommandIjnection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FtcGxlM1xPU0NvbW1hbmRJam5lY3Rpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Learn/DoAnTotNghiep/VulApp/testVul/testVul/Views/Sample4/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FtcGxlNFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Learn/DoAnTotNghiep/VulApp/testVul/testVul/Views/Sample5/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FtcGxlNVxpbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Learn/DoAnTotNghiep/VulApp/testVul/testVul/Views/Sample5/ReadContentOfURL.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FtcGxlNVxSZWFkQ29udGVudE9mVVJMLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Learn/DoAnTotNghiep/VulApp/testVul/testVul/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Learn/DoAnTotNghiep/VulApp/testVul/testVul/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Learn/DoAnTotNghiep/VulApp/testVul/testVul/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Learn/DoAnTotNghiep/VulApp/testVul/testVul/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Learn/DoAnTotNghiep/VulApp/testVul/testVul/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-mjtrjo5x16

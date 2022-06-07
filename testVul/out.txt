@@ -1,0 +1,23 @@
+ Volume in drive F is New Volume
+ Volume Serial Number is 4CDE-925D
+
+ Directory of F:\Learn\DoAnTotNghiep\VulApp\testVul\testVul
+
+05/04/2022  01:07 AM    <DIR>          .
+05/04/2022  01:05 AM    <DIR>          ..
+05/04/2022  01:07 AM                 9 a
+05/04/2022  12:56 AM                 9 abc
+05/03/2022  04:51 PM               127 appsettings.Development.json
+05/03/2022  04:51 PM               151 appsettings.json
+05/03/2022  04:51 PM    <DIR>          bin
+05/04/2022  01:03 AM    <DIR>          Controllers
+05/03/2022  04:52 PM    <DIR>          Models
+05/03/2022  04:54 PM    <DIR>          obj
+05/04/2022  01:07 AM                 0 out.txt
+05/03/2022  09:42 PM               793 Program.cs
+05/03/2022  04:51 PM    <DIR>          Properties
+05/04/2022  12:53 AM               235 testVul.csproj
+05/03/2022  10:56 PM    <DIR>          Views
+05/03/2022  04:51 PM    <DIR>          wwwroot
+               7 File(s)          1,324 bytes
+               9 Dir(s)  385,364,348,928 bytes free

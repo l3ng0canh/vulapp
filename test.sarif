@@ -1,0 +1,184 @@
+{
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "SCS0001",
+          "ruleIndex": 0,
+          "level": "warning",
+          "message": {
+            "text": "Potential Command Injection vulnerability was found where 'Arguments' in 'ProcessStartInfo' may be tainted by user-controlled data from 'string? id' in method 'IActionResult Sample3Controller.OSCommandIjnection(string? id)'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Learn/DoAnTotNghiep/VulApp/testVul/testVul/Controllers/Sample3Controller.cs"
+                },
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 13,
+                  "endLine": 44,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Learn/DoAnTotNghiep/VulApp/testVul/testVul/Controllers/Sample3Controller.cs"
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 49,
+                  "endLine": 27,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0018",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Potential Path Traversal vulnerability was found where 'path' in 'string File.ReadAllText(string path)' may be tainted by user-controlled data from 'string filename' in method 'IActionResult Sample2Controller.Index(string filename)'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Learn/DoAnTotNghiep/VulApp/testVul/testVul/Controllers/Sample2Controller.cs"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 54,
+                  "endLine": 31,
+                  "endColumn": 62
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Learn/DoAnTotNghiep/VulApp/testVul/testVul/Controllers/Sample2Controller.cs"
+                },
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 37,
+                  "endLine": 24,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SCS0028",
+          "ruleIndex": 2,
+          "level": "warning",
+          "message": {
+            "text": "Potential unsafe deserialization vulnerability was found where 'serializationStream' in 'object BinaryFormatter.Deserialize(Stream serializationStream)' may be tainted by user-controlled data from 'string base64encodedstring' in method 'IActionResult Sample4Controller.Index(string base64encodedstring)'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Learn/DoAnTotNghiep/VulApp/testVul/testVul/Controllers/Sample4Controller.cs"
+                },
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 61,
+                  "endLine": 14,
+                  "endColumn": 124
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Learn/DoAnTotNghiep/VulApp/testVul/testVul/Controllers/Sample4Controller.cs"
+                },
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 36,
+                  "endLine": 11,
+                  "endColumn": 62
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "Security Code Scan",
+          "version": "5.6.3.0",
+          "dottedQuadFileVersion": "5.6.3.0",
+          "semanticVersion": "5.6.3",
+          "language": "en-US",
+          "rules": [
+            {
+              "id": "SCS0001",
+              "shortDescription": {
+                "text": "Potential Command Injection vulnerability was found where '{0}' in '{1}' may be tainted by user-controlled data from '{2}' in method '{3}'."
+              },
+              "fullDescription": {
+                "text": "The untrusted value passed to the command execution should be validated."
+              },
+              "helpUri": "https://security-code-scan.github.io/#SCS0001",
+              "properties": {
+                "category": "Security"
+              }
+            },
+            {
+              "id": "SCS0018",
+              "shortDescription": {
+                "text": "Potential Path Traversal vulnerability was found where '{0}' in '{1}' may be tainted by user-controlled data from '{2}' in method '{3}'."
+              },
+              "fullDescription": {
+                "text": "The untrusted value passed to the redirect should be validated."
+              },
+              "helpUri": "https://security-code-scan.github.io/#SCS0018",
+              "properties": {
+                "category": "Security"
+              }
+            },
+            {
+              "id": "SCS0028",
+              "shortDescription": {
+                "text": "Potential unsafe deserialization vulnerability was found where '{0}' in '{1}' may be tainted by user-controlled data from '{2}' in method '{3}'."
+              },
+              "fullDescription": {
+                "text": "Deserialization of untrusted data is unsafe."
+              },
+              "helpUri": "https://security-code-scan.github.io/#SCS0028",
+              "properties": {
+                "category": "Security"
+              }
+            }
+          ]
+        }
+      },
+      "columnKind": "utf16CodeUnits"
+    }
+  ]
+}
